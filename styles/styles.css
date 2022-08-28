@@ -66,7 +66,12 @@ img {
 
 }
 
-/* header */ 
+/* header */
+
+.container.main {
+    display: flex;
+    align-items: center;
+}
 
 .container .list {
     display: flex;
@@ -76,20 +81,22 @@ img {
     display: flex;
 }
 
-.header .container {
-    display: flex;
-    align-items: center;
-}
 
 .auth-nav {
     display: flex;
+}
+
+.auth-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .header {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--header-bg);
-    
+
 }
 
 .logo.link {
@@ -140,6 +147,7 @@ img {
     text-decoration: none;
     color: var(--main-color-title);
 }
+
 .site-nav .link {
     display: block;
     padding-top: 32px;
@@ -170,7 +178,7 @@ img {
     width: 696px;
     margin: 0 auto;
     margin-bottom: 30px;
-    
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -235,6 +243,7 @@ img {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .features.section {
     padding-bottom: 0;
 }
@@ -275,7 +284,7 @@ img {
 .section.team .item {
     background-color: var(--main-background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .section-title {
@@ -364,12 +373,13 @@ img {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
- .add-list {
+
+.add-list {
     list-style: none;
-} 
+}
 
 .add-list .item:not(:last-child) {
-margin-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .link.addr:hover {
@@ -381,14 +391,17 @@ margin-bottom: 9px;
 }
 
 .footer .logo {
-    padding-top: 60px;
     margin-bottom: 20px;
+}
+
+.container.foot-add {
+    padding: 60px 0;
 }
 
 /* PORTFOLIO */
 
 .title-port {
-   margin-bottom: 4px;
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -420,7 +433,7 @@ margin-bottom: 9px;
 
 
 .list.button .item+.item {
-    margin-left: 8px; 
+    margin-left: 8px;
 }
 
 .list.card .item {
