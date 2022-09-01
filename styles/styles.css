@@ -345,6 +345,8 @@ img {
 
 .footer {
     background-color: var(--additional-bg);
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 
 .footer .logo {
@@ -395,8 +397,7 @@ img {
 }
 
 .container.foot-add {
-    padding-bottom: 60px;
-    padding-top: 60px;
+
 }
 
 /* PORTFOLIO */
